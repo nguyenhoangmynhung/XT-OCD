@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['CPU', 'CPU_Fan', 'DISK', 'GPU', 'Mainboard', 'PSU', 'RAM']
+
+roboflow:
+  workspace: mynhungs-workspace
+  project: xt-ocd
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mynhungs-workspace/xt-ocd/dataset/1
